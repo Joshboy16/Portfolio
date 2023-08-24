@@ -15,7 +15,7 @@ const Home = () => {
           <h1 className="text-4xl sm:text-7xl font-bold text-white">
             Full Stack Software and DevOps Engineer
           </h1>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 mt-6 max-w-md">
             {/* I have over years of experience building and designing softwares.
                     Currently, I love to work on web applications, using technologies like
                     React, Next, Tailwind, Nodejs and Graphql. */}
@@ -30,7 +30,7 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-2 mb-6 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">

@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full p-5 bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 m-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
           My name is Joseph Uguru-Okorie. I am a Software and DevOps Engineer
           with years of industrial experience, and have also designed,
           developed, built and monitored applications, too. My skills cover
